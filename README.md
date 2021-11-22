@@ -81,12 +81,24 @@ O projeto foi divido e colocado em três pastas diferentes para ajudar na compre
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
+
+### Ferramentas Utilizadas 
+
+Essa sessão lista os frameworks/libs e IDE's utilizadas ness desafio
+
+* [Eclipse 4.21.0](https://google.com/)
+* [JUnit 4.13.2](https://google.com/)
+* [Selenium 4.0.0](https://google.com/)
+* [Chrome WebDrive](https://google.com/)
+
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
+
 <!-- 
-### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
+
+
+
 * [React.js](https://reactjs.org/)
 * [Vue.js](https://vuejs.org/)
 * [Angular](https://angular.io/)
