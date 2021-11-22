@@ -25,12 +25,14 @@
   <p align="center">
     Feito por Luis Guilherme Soares Starlino, UNABH CRISTIANO MACHADO
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Ver projeto completo »</strong></a>
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong> Ver Desafio Completo »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Ver demonstração</a>
+    <a href="https://github.com/othneildrew/Best-README-Template">Primeira Parte</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Reportar Bug</a>
+    <a href="https://github.com/othneildrew/Best-README-Template">Segunda Parte</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Terceira parte</a>
   </p>
 </div>
 
@@ -63,25 +65,21 @@
 </details>
  -->
 
-<!-- ABOUT THE PROJECT 
-## About The Project
+<!-- Sobre o Projeto  -->
+## Sobre o Desafio
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Esse desafio foi proposto pela CI&T na em uma Unidade Curricular Gestão e Qualidade De software ministrada dentro da facudade UNABH - CRISTIANO MACHADO.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+Composição do Desafio:
+* Parte 1 - Automação baseada na Linguagem Gherkin Escrita pela prórpia empresa
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
 * You should implement DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+O projeto foi divido e colocado em três pastas diferentes para ajudar na compreensão e desenvolvimento de todo o Desafio, cada pasta representa uma Parte do Desafio.
 
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
--->
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
 <!-- 
 ### Built With
