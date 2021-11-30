@@ -70,12 +70,12 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Esse desafio foi proposto pela CI&T na em uma Unidade Curricular Gestão e Qualidade De software ministrada dentro da facudade UNABH - CRISTIANO MACHADO.
+Esse desafio foi proposto pela CI&T na Unidade Curricular Gestão e Qualidade De software ministrada dentro da facudade UNABH - CRISTIANO MACHADO.
 
 Composição do Desafio:
-* Parte 1 - Automação baseada na Linguagem Gherkin Escrita pela prórpia empresa
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* Parte 1 - Automação baseada na Linguagem Gherkin Escrita pela prórpia empresa.
+* Parte 2 - Realizar a criação da Feature usando o Gherkin e realizando a automação com o cenário informado.
+* Parte 3 - Criar um cenário e fazer toda a sua construção, desde o Gherkin até a automação do teste esperando o resultado correto.
 
 O projeto foi divido e colocado em três pastas diferentes para ajudar na compreensão e desenvolvimento de todo o Desafio, cada pasta representa uma Parte do Desafio.
 
