@@ -68,8 +68,6 @@
 <!-- Sobre o Projeto  -->
 ## Sobre o Desafio
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Esse desafio foi proposto pela CI&T na Unidade Curricular Gestão e Qualidade De software ministrada dentro da facudade UNABH - CRISTIANO MACHADO.
 
 Composição do Desafio:
@@ -82,7 +80,7 @@ O projeto foi divido e colocado em três pastas diferentes para ajudar na compre
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
 
-### Ferramentas Utilizadas 
+## Ferramentas Utilizadas
 
 Essa sessão lista os frameworks/libs e IDE's utilizadas ness desafio
 
@@ -90,9 +88,18 @@ Essa sessão lista os frameworks/libs e IDE's utilizadas ness desafio
 * [JUnit 4.13.2](https://google.com/)
 * [Selenium 4.0.0](https://google.com/)
 * [Chrome WebDrive](https://google.com/)
+* [Visual Studio](https://google.com/) (Apenas para criação das features)
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
+## Parte 1
+
+Nessa primeira etapa realizei a criação de uma classe para instanciar dentro da área de testes, essa classe foi criada dentro do package "faseUM".
+Dentro dessa classe que recebe o _driver_ como parâmentro eu peguei todos os elementos e verifiquei se o possivel cenário retornaria True dentro das condições propostas.
+
+_Veja toda classe da primeira etapa(FASE UM) e lógica abrindo a [Primeira Etapa](https://github.com/Luixs/DesafioCI-T/blob/main/CucumberEstrutura/src/main/java/faseUm/PrimeiraEtapa.java)_
+
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 <!-- 
 
 
@@ -148,16 +155,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 -->
 
-<!-- USAGE EXAMPLES 
-## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
--->
 
 <!-- ROADMAP 
 ## Roadmap
@@ -246,5 +244,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
 -->
