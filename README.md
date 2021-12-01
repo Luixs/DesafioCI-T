@@ -1,15 +1,8 @@
 <div id="top"></div>
 
-<!-- PROJECT SHIELDS -->
-
-<!--
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
--->
+
 
 
 <!-- PROJECT LOGO -->
@@ -28,9 +21,9 @@
     <a href="https://github.com/othneildrew/Best-README-Template"><strong> Ver Desafio Completo »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Primeira Parte</a>
+    <a href="parteUm">Primeira Parte</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template">Segunda Parte</a>
+    <a href="parteDois">Segunda Parte</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Terceira parte</a>
   </p>
@@ -38,34 +31,25 @@
 
 
 
-<!-- TABLE OF CONTENTS
 <details>
   <summary>Sumário</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#desafio">Sobre o Desafio</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#ferramentas">ferramentas</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#parteUm">Primeira Etapa</a></li>
+    <li><a href="#parteDois">Segunda Etapa</a></li>
+    <li><a href="#parteTres">Terceira Etapa</a></li>
   </ol>
 </details>
- -->
+
 
 <!-- Sobre o Projeto  -->
+<div id="desafio"></div>
+
 ## Sobre o Desafio
 
 Esse desafio foi proposto pela CI&T na Unidade Curricular Gestão e Qualidade De software ministrada dentro da facudade UNABH - CRISTIANO MACHADO.
@@ -80,6 +64,8 @@ O projeto foi divido e colocado em três pastas diferentes para ajudar na compre
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
 
+<div id="ferramentas"></div>
+
 ## Ferramentas Utilizadas
 
 Essa sessão lista os frameworks/libs e IDE's utilizadas ness desafio
@@ -92,156 +78,68 @@ Essa sessão lista os frameworks/libs e IDE's utilizadas ness desafio
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
-## Parte 1
 
-Nessa primeira etapa realizei a criação de uma classe para instanciar dentro da área de testes, essa classe foi criada dentro do package "faseUM".
+<div id="parteUm"></div>
+
+## Parte 1
+Nessa primeira etapa realizei a criação de uma classe para instanciar dentro da área de testes, essa classe foi criada dentro do package "faseUm".
 Dentro dessa classe que recebe o _driver_ como parâmentro eu peguei todos os elementos e verifiquei se o possivel cenário retornaria True dentro das condições propostas.
 
-_Veja toda classe da primeira etapa(FASE UM) e lógica abrindo a [Primeira Etapa](https://github.com/Luixs/DesafioCI-T/blob/main/CucumberEstrutura/src/main/java/faseUm/PrimeiraEtapa.java)_
+_Veja toda classe da primeira etapa e sua lógica abrindo a classe [Primeira Etapa](https://github.com/Luixs/DesafioCI-T/blob/main/CucumberEstrutura/src/main/java/faseUm/PrimeiraEtapa.java)_
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
-<!-- 
 
 
+<div id="parteDois"></div>
 
+## Parte 2
+Nessa segunda etapa recebemos apenas uma informação para o novo cenário e tivemos que realizar a criação tanto do cenário em Gherkin quando da classe responsável pelo teste. A classe foi criada dentro do package "faseDois", demonimada de "Segunda Etapa".
 
+Segue abaixo o modelo Gherkin criado, documentando também dentro do projeto, clicando aqui você consegue visualizar dentros dos arquivos.
 
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
--->
-
-<!-- GETTING STARTED 
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Gherkin
   ```sh
-  npm install npm@latest -g
+  Funcionalidade:Realizar busca em 'Categoria' e verificar se a paginação esta correta
+    Cenário: Paginação correta buscando por 'Science: Computers'
+          Dado que navego para a página de busca do banco de questões dentro do site 'https://opentdb.com/'
+          E digito 'Science: Computers' no campo de busca
+          E troco o 'Question' por 'Category' no select ao lado do campo de busca
+          Quando clico no botão de buscar
+          Então visualizo a listagem de respostas totalizando 25 itens ao todo
   ```
--->
-<!--
-### Installation
+  _Visualizar toda etapa acima dentro do arquivo .[Feature](https://github.com/Luixs/DesafioCI-T/blob/main/CucumberEstrutura/Features/buscarCategoria(SegundaEtapa).feature)_
+  
+  Além da escrita em Gherkin, toda a classe do objeto está disponível no diretório clicando [aqui](https://github.com/Luixs/DesafioCI-T/blob/main/CucumberEstrutura/src/main/java/faseDois/SegundaEtapa.java)
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+<div id="parteTres"></div>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## Parte 3
+Nessa terceira e última etapa, ficamos livre para criar e realizar um teste começando do zero, desde a disponibilização das informações, criação na linguagem Gherkin e todo desenvolvimento da classe em Java e seu teste.
+O teste no qual desenvolvi tem como base uma usa usuária, a Karen, que criou uma pergunta e queriamos verificar se a mesma foi criada corretamente e estava atrelada ao perfil da Karen. Ao buscar pela perguta e clicar no Perfil do criado podemos verificar que de fato está atrelado corretamente e que essa função não possui erros aparentes.
 
--->
+Segue abaixo o modelo Gherkin criado, documentando também dentro do projeto, clicando aqui você consegue visualizar dentros dos arquivos.
 
+* Gherkin
+  ```sh
+  Funcionalidade: Verificar se a pergunta criada esta atrelada à usuária  no sistema
+    Cenário: Pergunta encontrada e atrelada ao Perfil Correto
+        Dado que a usuaria 'Karen' criou a pergunta 'What does the computer software acronym JVM stand for?'
+        E eu navegue para a página de busca do banco de questões dentro do site 'https://opentdb.com/'
+        Quando eu digitar 'What does the computer software acronym JVM stand for?' na busca
+        E clicar no botão de busca
+        E aparecer apenas uma questão
+        Então ao clicar no perfil listado no campo 'Created By' irei ser redirecionado para o perfil do criador
+        E visualizarei o perfil da "Karen"
+  ```
+  _Visualizar toda etapa acima dentro do arquivo .[Feature](https://github.com/Luixs/DesafioCI-T/blob/main/CucumberEstrutura/Features/verificandoQuestaoCriada(TerceitaEtapa).feature)_
+  
+Além da escrita em Gherkin, toda a classe do objeto está disponível no diretório clicando [aqui](https://github.com/Luixs/DesafioCI-T/blob/main/CucumberEstrutura/src/main/java/faseTres/TerceitaEtapa.java)
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
-
-<!-- ROADMAP 
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
--->
-
-<!-- CONTRIBUTING 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
--->
-
-<!-- LICENSE 
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
--->
-
-<!-- CONTACT 
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
--->
-
-<!-- ACKNOWLEDGMENTS 
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
--->
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-url]:https://github.com/Luixs/DesafioCI-T/graphs/contributors
+[linkedin-url]: https://www.linkedin.com/in/luis-starlino/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
--->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+
