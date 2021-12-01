@@ -34,6 +34,7 @@
         <li><a href="#ferramentas">ferramentas</a></li>
       </ul>
     </li>
+    <li><a href="#testes">Classe dos Testes</a></li>
     <li><a href="#parteUm">Primeira Etapa</a></li>
     <li><a href="#parteDois">Segunda Etapa</a></li>
     <li><a href="#parteTres">Terceira Etapa</a></li>
@@ -72,6 +73,15 @@ Essa sessão lista os frameworks/libs e IDE's utilizadas ness desafio
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
+
+<div id="testes"></div>
+
+## Classe 'Testes'
+Para simplificar todo o processo de execução do código, eu criei uma classe para cada desafio e instaciei as 3 dentro de uma classe de testes apenas. Essa classe foi denominada de testes. Ao rodar somente essa classe de testes usando o JUnit todos os três testes ocorrem conforme solicitado e informam no CONSOLE LOG o status de cada um.
+
+_Veja a classe completa com todos os  [TESTES](https://github.com/Luixs/DesafioCI-T/blob/main/CucumberEstrutura/src/test/java/testes.java)_
+
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
 <div id="parteUm"></div>
 
