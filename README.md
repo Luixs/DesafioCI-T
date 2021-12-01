@@ -18,14 +18,8 @@
   <p align="center">
     Feito por Luis Guilherme Soares Starlino, UNABH CRISTIANO MACHADO
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong> Ver Desafio Completo »</strong></a>
+    <a href="https://github.com/Luixs/DesafioCI-T/blob/main/CucumberEstrutura/src/test/java/testes.java"><strong> Ver Classe de Teste »</strong></a>
     <br />
-    <br />
-    <a href="parteUm">Primeira Parte</a>
-    ·
-    <a href="parteDois">Segunda Parte</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Terceira parte</a>
   </p>
 </div>
 
